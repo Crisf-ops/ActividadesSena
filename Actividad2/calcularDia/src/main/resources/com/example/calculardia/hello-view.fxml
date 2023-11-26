@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculardia.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <HBox prefHeight="100.0" prefWidth="200.0" spacing="5">
+      <children>
+         <Label text="Ingrese la cantidad de dias" />
+         <Spinner fx:id="spinner"/>
+      </children>
+   </HBox>
+   <VBox prefHeight="200.0" prefWidth="100.0">
+      <children>
+         <HBox nodeOrientation="LEFT_TO_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="5">
+            <children>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HORAS: " />
+               <Label fx:id="hours"/>
+            </children>
+         </HBox>
+         <HBox prefHeight="100.0" prefWidth="200.0" spacing="5">
+            <children>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="MINUTOS:" />
+               <Label fx:id="minutes"/>
+            </children>
+         </HBox>
+         <HBox prefHeight="100.0" prefWidth="200.0" spacing="5">
+            <children>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SEGUNDOS:" />
+               <Label fx:id="seconds"/>
+            </children>
+         </HBox>
+      </children>
+   </VBox>
+  <Label fx:id="text" />
+</VBox>
