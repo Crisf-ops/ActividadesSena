@@ -1,0 +1,14 @@
+
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÈÏë8¿Ìô“Ã1
+a
+java:S1659"DDeclare "sideTwo" and all following declarations on a separate line.(©ßñÎ8²©í“Ã1
+L	java:S106"+Replace this use of System.out by a logger.(·ÂÏÅûÿÿÿÿ8²©í“Ã1
+L	java:S106"+Replace this use of System.out by a logger.(×ğ‰«úÿÿÿÿ8²©í“Ã1
+L	java:S106"+Replace this use of System.out by a logger.(­Óîøÿÿÿÿ8²©í“Ã1
+G	java:S106"+Replace this use of System.out by a logger.(ˆ¹äÄ8²©í“Ã1
+L	java:S106"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8²©í“Ã1
+G	java:S106"+Replace this use of System.out by a logger.(È¾Š‹8²©í“Ã1
+L	java:S106 "+Replace this use of System.out by a logger.(É¶×½şÿÿÿÿ8²©í“Ã1
+R
+java:S1128"5Remove this unused import 'lombok.NoArgsConstructor'.(¸¨›8¤Úó“Ã1
